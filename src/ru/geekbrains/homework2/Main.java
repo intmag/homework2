@@ -4,36 +4,36 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //1 задание
+        //1 задание.
         int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
         System.out.println(Arrays.toString(arr));
         arr = invertArray(arr);
         System.out.println(Arrays.toString(arr));
 
-        //2 задание
+        //2 задание.
         int[] secondArray = new int[8];
         secondArray = fillableArray(secondArray);
         System.out.println(Arrays.toString(secondArray));
 
-        //3 задание
+        //3 задание.
         int[] multipliedArray = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         System.out.println(Arrays.toString(multipliedArray));
         multipliedArray = multiplicationArray(multipliedArray);
         System.out.println(Arrays.toString(multipliedArray));
 
-        //4 задание
+        //4 задание.
         int[][] twoDimensionalArray = new int[8][8];
         twoDimensionalArray = diagonalFilling(twoDimensionalArray);
         twoDimensionalArrayDisplay(twoDimensionalArray);
 
-        //5 задание
+        //5 задание.
         minAndMaxArrayVal(multipliedArray);
 
-        //6 задание
+        //6 задание.
         int[] getLuckArray = {11, 10};
         System.out.println(luckyArray(getLuckArray));
 
-        //7 задание
+        //7 задание.
         int[] shiftArray = {1, 2, 3, 4, 5};
         shiftArrayFunction(shiftArray, -2);
     }
